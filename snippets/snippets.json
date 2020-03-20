@@ -113,6 +113,26 @@
     "description": "Create React Native Functional Component"
   },
 
+  "reduxFunctionalComponent": {
+    "prefix": "rnrfc",
+    "body": [
+      "import React from 'react';",
+      "// import { useSelector, useDispatch } from 'redux-saga';",
+      "",
+      "// import { Container } from './styles';",
+      "",
+      "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
+      "  // const dispatch = useDispatch();",
+      "  // const signed = useState(state=>state.auth.signed);",
+      "  return (",
+      "    <View />",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "Create React Native Functional Component with Redux Hooks"
+  },
+
   "styles": {
     "prefix": "styled-rn",
     "body": [
